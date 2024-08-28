@@ -1,31 +1,49 @@
 
-
 body {
     background-color: rgb(48, 45, 45);
+    background-image: url(/img/achuva-cintilante-faz-o-mundo-ganhar-vida-rsc5gxoqctsegcz3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 500px;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Signika Negative", sans-serif;
 }
 
 h1 {
-    color: #9c279c;
-    font-size: 40px;
+    color: #000080;
+    font-size: 50px;
+    font-weight: bold;
     text-align: center;
+    text-shadow: 0 1px 0 #cccccc, 
+0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 
+0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 
+0 6px 1px rgba(0, 0, 0, 0.1), 
+0 0 5px rgba(0, 0, 0, 0.1), 
+0 1px 3px rgba(0, 0, 0, 0.3), 
+0 3px 5px rgba(0, 0, 0, 0.2), 
+0 5px 10px rgba(0, 0, 0, 0.25), 
+0 10px 10px rgba(0, 0, 0, 0.2), 
+0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 input {
     height: 40px;
-    border: 2px solid #84009b;
-    background-color: #333;
-    color: #eee;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: #b8b8b8;
+    color: black;
     outline: none;
     width: 79%;
+    opacity: 0.5;
+    font-weight: bold;
+    
 }
 
 button {
     border: none;
+    border-radius: 20px;
     height: 44px;
-    background-color: #84009b;
+    background-color: #1c037c;
     color: #fff;
     cursor: pointer;
     transition: 0.5s;
@@ -33,12 +51,12 @@ button {
 }
 
 button:hover {
-    background-color: #e432e4;
+    background-color: #040338;
 
 }
 
 button:active {
-    background-color: #e08fe0;
+    background-color: #80eef1;
 }
 
 ul {
@@ -47,7 +65,7 @@ ul {
 }
 
 li {
-    background-color: #4a148c;
+    background-color: #040338;
     padding: 10px;
     margin: 10px auto;
     border-radius: 5px;
@@ -61,4 +79,22 @@ li {
 
 span {
     cursor: pointer;
+}
+
+@media  (max-width:500px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    input {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+    }
 }
