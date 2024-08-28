@@ -1,12 +1,13 @@
-
 body {
+    font-family: "Signika Negative", sans-serif;
     background-color: rgb(48, 45, 45);
-    background-image: url(/img/achuva-cintilante-faz-o-mundo-ganhar-vida-rsc5gxoqctsegcz3.jpg) ;
+    background-image: url(/img/achuva-cintilante-faz-o-mundo-ganhar-vida-rsc5gxoqctsegcz3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 500px;
     margin: 0 auto;
-    font-family: "Signika Negative", sans-serif;
+    min-height: 100vh;
+
 }
 
 h1 {
@@ -14,16 +15,16 @@ h1 {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 0 1px 0 #cccccc, 
-0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 
-0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 
-0 6px 1px rgba(0, 0, 0, 0.1), 
-0 0 5px rgba(0, 0, 0, 0.1), 
-0 1px 3px rgba(0, 0, 0, 0.3), 
-0 3px 5px rgba(0, 0, 0, 0.2), 
-0 5px 10px rgba(0, 0, 0, 0.25), 
-0 10px 10px rgba(0, 0, 0, 0.2), 
-0 20px 20px rgba(0, 0, 0, 0.15);
+    text-shadow: 0 1px 0 #cccccc,
+        0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb,
+        0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa,
+        0 6px 1px rgba(0, 0, 0, 0.1),
+        0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3),
+        0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 input {
@@ -36,7 +37,7 @@ input {
     width: 79%;
     opacity: 0.5;
     font-weight: bold;
-    
+
 }
 
 button {
@@ -81,7 +82,19 @@ span {
     cursor: pointer;
 }
 
-@media  (max-width:500px) {
+.rodape {
+    background-color: #d3d3d3;
+    position: sticky;
+    bottom: 10px;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width:500px) {
     body {
         width: 100vw;
         height: 100vh;
